@@ -1,0 +1,404 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A24FE5CE2011D83500A5568F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A24FE5CD2011D83500A5568F /* AppDelegate.m */; };
+		A24FE5D12011D83500A5568F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A24FE5D02011D83500A5568F /* ViewController.m */; };
+		A24FE5D72011D83500A5568F /* GraphicRecognition.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A24FE5D52011D83500A5568F /* GraphicRecognition.xcdatamodeld */; };
+		A24FE5D92011D83500A5568F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A24FE5D82011D83500A5568F /* Assets.xcassets */; };
+		A24FE5DC2011D83500A5568F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A24FE5DA2011D83500A5568F /* LaunchScreen.storyboard */; };
+		A24FE5DF2011D83500A5568F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A24FE5DE2011D83500A5568F /* main.m */; };
+		A24FE5EB2011DA2000A5568F /* identificationBusiness.mm in Sources */ = {isa = PBXBuildFile; fileRef = A24FE5E82011DA2000A5568F /* identificationBusiness.mm */; };
+		A24FE5EC2011DA2000A5568F /* TYIdentificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A24FE5E92011DA2000A5568F /* TYIdentificationViewController.m */; };
+		A24FE5ED2011DA2000A5568F /* TYImageDispose.m in Sources */ = {isa = PBXBuildFile; fileRef = A24FE5EA2011DA2000A5568F /* TYImageDispose.m */; };
+		A24FE5F42011DA4100A5568F /* tessdata in Resources */ = {isa = PBXBuildFile; fileRef = A24FE5F32011DA4100A5568F /* tessdata */; };
+		A24FE5F72011DC8E00A5568F /* TYImageIdentifyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A24FE5F62011DC8E00A5568F /* TYImageIdentifyViewController.m */; };
+		A24FE5FA2011E53400A5568F /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A24FE5F92011E53400A5568F /* CoreMedia.framework */; };
+		A24FE5FC2011E54100A5568F /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A24FE5FB2011E54100A5568F /* AVFoundation.framework */; };
+		A24FE5FE2011E55100A5568F /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A24FE5FD2011E55100A5568F /* CoreVideo.framework */; };
+		A24FE6002011E55E00A5568F /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A24FE5FF2011E55E00A5568F /* OpenGLES.framework */; };
+		A24FE6022011E56C00A5568F /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A24FE6012011E56C00A5568F /* CoreImage.framework */; };
+		A24FE6042011E57600A5568F /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A24FE6032011E57600A5568F /* libc++.tbd */; };
+		A24FE6062011E58100A5568F /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A24FE6052011E58100A5568F /* Accelerate.framework */; };
+		A24FE6082011E59600A5568F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A24FE6072011E59600A5568F /* CoreGraphics.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A24FE5C92011D83500A5568F /* GraphicRecognition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GraphicRecognition.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A24FE5CC2011D83500A5568F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A24FE5CD2011D83500A5568F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A24FE5CF2011D83500A5568F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A24FE5D02011D83500A5568F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A24FE5D62011D83500A5568F /* GraphicRecognition.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GraphicRecognition.xcdatamodel; sourceTree = "<group>"; };
+		A24FE5D82011D83500A5568F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A24FE5DB2011D83500A5568F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A24FE5DD2011D83500A5568F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A24FE5DE2011D83500A5568F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A24FE5E52011DA2000A5568F /* identificationBusiness.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = identificationBusiness.h; sourceTree = "<group>"; };
+		A24FE5E62011DA2000A5568F /* TYIdentificationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYIdentificationViewController.h; sourceTree = "<group>"; };
+		A24FE5E72011DA2000A5568F /* TYImageDispose.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYImageDispose.h; sourceTree = "<group>"; };
+		A24FE5E82011DA2000A5568F /* identificationBusiness.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = identificationBusiness.mm; sourceTree = "<group>"; };
+		A24FE5E92011DA2000A5568F /* TYIdentificationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYIdentificationViewController.m; sourceTree = "<group>"; };
+		A24FE5EA2011DA2000A5568F /* TYImageDispose.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYImageDispose.m; sourceTree = "<group>"; };
+		A24FE5F32011DA4100A5568F /* tessdata */ = {isa = PBXFileReference; lastKnownFileType = folder; path = tessdata; sourceTree = "<group>"; };
+		A24FE5F52011DC8E00A5568F /* TYImageIdentifyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYImageIdentifyViewController.h; sourceTree = "<group>"; };
+		A24FE5F62011DC8E00A5568F /* TYImageIdentifyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYImageIdentifyViewController.m; sourceTree = "<group>"; };
+		A24FE5F92011E53400A5568F /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		A24FE5FB2011E54100A5568F /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		A24FE5FD2011E55100A5568F /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		A24FE5FF2011E55E00A5568F /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		A24FE6012011E56C00A5568F /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		A24FE6032011E57600A5568F /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		A24FE6052011E58100A5568F /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		A24FE6072011E59600A5568F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A24FE5C62011D83500A5568F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A24FE6082011E59600A5568F /* CoreGraphics.framework in Frameworks */,
+				A24FE6062011E58100A5568F /* Accelerate.framework in Frameworks */,
+				A24FE6042011E57600A5568F /* libc++.tbd in Frameworks */,
+				A24FE6022011E56C00A5568F /* CoreImage.framework in Frameworks */,
+				A24FE6002011E55E00A5568F /* OpenGLES.framework in Frameworks */,
+				A24FE5FE2011E55100A5568F /* CoreVideo.framework in Frameworks */,
+				A24FE5FC2011E54100A5568F /* AVFoundation.framework in Frameworks */,
+				A24FE5FA2011E53400A5568F /* CoreMedia.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A24FE5C02011D83500A5568F = {
+			isa = PBXGroup;
+			children = (
+				A24FE5CB2011D83500A5568F /* GraphicRecognition */,
+				A24FE5CA2011D83500A5568F /* Products */,
+				A24FE5F82011E53300A5568F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A24FE5CA2011D83500A5568F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A24FE5C92011D83500A5568F /* GraphicRecognition.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A24FE5CB2011D83500A5568F /* GraphicRecognition */ = {
+			isa = PBXGroup;
+			children = (
+				A24FE5F32011DA4100A5568F /* tessdata */,
+				A24FE5CC2011D83500A5568F /* AppDelegate.h */,
+				A24FE5CD2011D83500A5568F /* AppDelegate.m */,
+				A24FE5CF2011D83500A5568F /* ViewController.h */,
+				A24FE5D02011D83500A5568F /* ViewController.m */,
+				A24FE5E52011DA2000A5568F /* identificationBusiness.h */,
+				A24FE5E82011DA2000A5568F /* identificationBusiness.mm */,
+				A24FE5E62011DA2000A5568F /* TYIdentificationViewController.h */,
+				A24FE5E92011DA2000A5568F /* TYIdentificationViewController.m */,
+				A24FE5F52011DC8E00A5568F /* TYImageIdentifyViewController.h */,
+				A24FE5F62011DC8E00A5568F /* TYImageIdentifyViewController.m */,
+				A24FE5E72011DA2000A5568F /* TYImageDispose.h */,
+				A24FE5EA2011DA2000A5568F /* TYImageDispose.m */,
+				A24FE5D82011D83500A5568F /* Assets.xcassets */,
+				A24FE5DA2011D83500A5568F /* LaunchScreen.storyboard */,
+				A24FE5DD2011D83500A5568F /* Info.plist */,
+				A24FE5DE2011D83500A5568F /* main.m */,
+				A24FE5D52011D83500A5568F /* GraphicRecognition.xcdatamodeld */,
+			);
+			path = GraphicRecognition;
+			sourceTree = "<group>";
+		};
+		A24FE5F82011E53300A5568F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A24FE6072011E59600A5568F /* CoreGraphics.framework */,
+				A24FE6052011E58100A5568F /* Accelerate.framework */,
+				A24FE6032011E57600A5568F /* libc++.tbd */,
+				A24FE6012011E56C00A5568F /* CoreImage.framework */,
+				A24FE5FF2011E55E00A5568F /* OpenGLES.framework */,
+				A24FE5FD2011E55100A5568F /* CoreVideo.framework */,
+				A24FE5FB2011E54100A5568F /* AVFoundation.framework */,
+				A24FE5F92011E53400A5568F /* CoreMedia.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A24FE5C82011D83500A5568F /* GraphicRecognition */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A24FE5E22011D83500A5568F /* Build configuration list for PBXNativeTarget "GraphicRecognition" */;
+			buildPhases = (
+				A24FE5C52011D83500A5568F /* Sources */,
+				A24FE5C62011D83500A5568F /* Frameworks */,
+				A24FE5C72011D83500A5568F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GraphicRecognition;
+			productName = GraphicRecognition;
+			productReference = A24FE5C92011D83500A5568F /* GraphicRecognition.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A24FE5C12011D83500A5568F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "汤义";
+				TargetAttributes = {
+					A24FE5C82011D83500A5568F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A24FE5C42011D83500A5568F /* Build configuration list for PBXProject "GraphicRecognition" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A24FE5C02011D83500A5568F;
+			productRefGroup = A24FE5CA2011D83500A5568F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A24FE5C82011D83500A5568F /* GraphicRecognition */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A24FE5C72011D83500A5568F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A24FE5DC2011D83500A5568F /* LaunchScreen.storyboard in Resources */,
+				A24FE5D92011D83500A5568F /* Assets.xcassets in Resources */,
+				A24FE5F42011DA4100A5568F /* tessdata in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A24FE5C52011D83500A5568F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A24FE5D72011D83500A5568F /* GraphicRecognition.xcdatamodeld in Sources */,
+				A24FE5D12011D83500A5568F /* ViewController.m in Sources */,
+				A24FE5ED2011DA2000A5568F /* TYImageDispose.m in Sources */,
+				A24FE5DF2011D83500A5568F /* main.m in Sources */,
+				A24FE5EB2011DA2000A5568F /* identificationBusiness.mm in Sources */,
+				A24FE5F72011DC8E00A5568F /* TYImageIdentifyViewController.m in Sources */,
+				A24FE5EC2011DA2000A5568F /* TYIdentificationViewController.m in Sources */,
+				A24FE5CE2011D83500A5568F /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A24FE5DA2011D83500A5568F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A24FE5DB2011D83500A5568F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A24FE5E02011D83500A5568F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A24FE5E12011D83500A5568F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A24FE5E32011D83500A5568F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N5WRHCE748;
+				INFOPLIST_FILE = GraphicRecognition/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Users-xiyin-desktop-name.GraphicRecognition";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A24FE5E42011D83500A5568F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N5WRHCE748;
+				INFOPLIST_FILE = GraphicRecognition/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Users-xiyin-desktop-name.GraphicRecognition";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A24FE5C42011D83500A5568F /* Build configuration list for PBXProject "GraphicRecognition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A24FE5E02011D83500A5568F /* Debug */,
+				A24FE5E12011D83500A5568F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A24FE5E22011D83500A5568F /* Build configuration list for PBXNativeTarget "GraphicRecognition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A24FE5E32011D83500A5568F /* Debug */,
+				A24FE5E42011D83500A5568F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A24FE5D52011D83500A5568F /* GraphicRecognition.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A24FE5D62011D83500A5568F /* GraphicRecognition.xcdatamodel */,
+			);
+			currentVersion = A24FE5D62011D83500A5568F /* GraphicRecognition.xcdatamodel */;
+			path = GraphicRecognition.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A24FE5C12011D83500A5568F /* Project object */;
+}
